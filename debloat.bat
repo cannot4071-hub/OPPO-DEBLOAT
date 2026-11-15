@@ -133,10 +133,10 @@ adb shell pm uninstall --user 0 com.google.android.server.deviceconfig.resources
 adb shell pm uninstall --user 0 com.android.traceur
 adb shell pm uninstall --user 0 com.android.chrome
 adb shell pm uninstall --user 0 com.android.vending
-adb shell pm uninstall --user 0 com.google.android.inputmethod.latin
+adb shell pm uninstall --user 0 com.google.android.inputmethod.latin (gboard)
 adb shell pm uninstall --user 0 com.google.android.contacts
 adb shell pm uninstall --user 0 com.google.android.hotspot2.osulogin
-REM adb shell pm uninstall --user 0 com.google.android.gms.location.history
+adb shell pm uninstall --user 0 com.google.android.gms.location.history
 REM adb shell pm uninstall --user 0 com.google.android.sdksandbox
 REM adb shell pm uninstall --user 0 com.google.android.photopicker
 adb shell pm uninstall --user 0 com.google.android.accessibility.switchaccess
@@ -144,7 +144,8 @@ adb shell pm uninstall --user 0 com.google.android.dialer
 REM adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 echo.
 REM ### OPLUS ###
-REM KEEP: com.coloros.lockassistant (lock screen assistant) keep or splash won't go away on boot.
+REM KEEP: com.coloros.lockassistant (lock screen assistant) keep or wont boot
+adb shell pm uninstall --user 0 com.android.mms (og messages app)
 adb shell pm uninstall --user 0 andes.oplus.documentsreader
 adb shell pm uninstall --user 0 com.oplus.healthservice
 adb shell pm uninstall --user 0 com.oplus.trafficmonitor
