@@ -15,4 +15,8 @@ Then open the file.
 
 That's it.
 
+IF you want something back, use
+
+adb shell pm install-existing --user 0 (package name)
+
 Linux support will come. Or fork this and make a pull request.
