@@ -133,7 +133,10 @@ adb shell pm uninstall --user 0 com.google.android.server.deviceconfig.resources
 adb shell pm uninstall --user 0 com.android.traceur
 adb shell pm uninstall --user 0 com.android.chrome
 adb shell pm uninstall --user 0 com.android.vending
-adb shell pm uninstall --user 0 com.google.android.inputmethod.latin (gboard)
+
+adb shell pm uninstall --user 0 com.google.android.inputmethod.latin
+REM (gboard)
+
 adb shell pm uninstall --user 0 com.google.android.contacts
 adb shell pm uninstall --user 0 com.google.android.hotspot2.osulogin
 adb shell pm uninstall --user 0 com.google.android.gms.location.history
@@ -145,7 +148,10 @@ REM adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 echo.
 REM ### OPLUS ###
 REM KEEP: com.coloros.lockassistant (lock screen assistant) keep or wont boot
-adb shell pm uninstall --user 0 com.android.mms (og messages app)
+
+adb shell pm uninstall --user 0 com.android.mms
+REM (og messages app)
+
 adb shell pm uninstall --user 0 andes.oplus.documentsreader
 adb shell pm uninstall --user 0 com.oplus.healthservice
 adb shell pm uninstall --user 0 com.oplus.trafficmonitor
@@ -238,7 +244,10 @@ adb shell pm uninstall --user 0 com.netflix.mediaclient
 adb shell pm uninstall --user 0 com.snapchat.android
 adb shell pm uninstall --user 0 com.cardfeed.video_public
 adb shell pm uninstall --user 0 com.microsoftsdk.crossdeviceservicebroker
-REM adb shell pm uninstall --user 0 com.android.settings.intelligence (this will take your setting app's search box away
+
+REM adb shell pm uninstall --user 0 com.android.settings.intelligence
+REM removing this eats the search box on the settings app
+
 adb shell pm uninstall --user 0 com.android.egg
 adb shell pm uninstall --user 0 com.android.fmradio
 adb shell pm uninstall --user 0 com.android.cts.ctsshim
