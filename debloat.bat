@@ -1,6 +1,6 @@
 @echo off
 setlocal
-title OPPO Debloat - ADB, sponsored by femstar
+title OPPO Debloat - ADB, sponsored by Femstar
 echo Lines starting with REM are skipped. Make sure to check it out.
 echo CHECK IT OUT BECAUSE I AM NOT GONNA BE THERE TO HELP YOU IF YOU SCREW UP!
 echo e.g. GBoard will be deleted. Make sure you can install something else before proceeding.
