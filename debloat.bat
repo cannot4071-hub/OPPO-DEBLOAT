@@ -199,7 +199,11 @@ adb shell pm uninstall --user 0 com.oplus.ndsf
 adb shell pm uninstall --user 0 com.debug.loggerui
 adb shell pm uninstall --user 0 com.oplus.linker
 adb shell pm uninstall --user 0 com.oplus.callrecorder
+
 adb shell pm uninstall --user 0 com.oplus.cosa
+echo If this one said "Failure [DELETE_FAILED_INTERNAL_ERROR]"
+echo Use your settings app to disable App Enhancement Services
+
 REM adb shell pm uninstall --user 0 com.oplus.uiengine
 REM adb shell pm uninstall --user 0 com.oplus.subsys.plugin
 REM adb shell pm uninstall --user 0 com.oplus.nas
