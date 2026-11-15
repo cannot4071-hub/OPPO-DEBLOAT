@@ -39,9 +39,17 @@ adb shell pm uninstall --user 0 com.coloros.onekeylockscreen
 adb shell pm uninstall --user 0 com.coloros.alarmclock
 REM adb shell pm uninstall --user 0 com.coloros.ocs.opencapabilityservice
 REM adb shell pm uninstall --user 0 com.heytap.mcs
+
+adb shell pm uninstall --user 0 com.heytap.themestore
+echo If this one said "Failure [DELETE_FAILED_INTERNAL_ERROR]"
+echo Use your settings app to disable Theme (literally the name)
+
+adb shell pm uninstall --user 0 com.heytap.market
+echo If this one said "Failure [DELETE_FAILED_INTERNAL_ERROR]"
+echo Use your settings app to disable App Market
+
 adb shell pm uninstall --user 0 com.heytap.music
 adb shell pm uninstall --user 0 com.heytap.pictorial
-adb shell pm uninstall --user 0 com.heytap.market
 adb shell pm uninstall --user 0 com.heytap.browser
 adb shell pm uninstall --user 0 com.heytap.store
 adb shell pm uninstall --user 0 com.heytap.cloud
@@ -52,7 +60,11 @@ adb shell pm uninstall --user 0 com.nearme.instant.platform
 adb shell pm uninstall --user 0 com.nearme.gamecenter
 adb shell pm uninstall --user 0 com.oppo.quicksearchbox
 adb shell pm uninstall --user 0 com.finshell.fin
+
 adb shell pm uninstall --user 0 com.oplus.themestore
+echo If this one said "Failure [DELETE_FAILED_INTERNAL_ERROR]"
+echo Use your settings app to disable Theme Store
+
 adb shell pm uninstall --user 0 com.oplus.eyeprotect
 adb shell pm uninstall --user 0 com.oplus.multiapp
 adb shell pm uninstall --user 0 com.oplus.mediaturbo
@@ -148,7 +160,7 @@ REM adb shell pm uninstall --user 0 com.google.android.sdksandbox
 REM adb shell pm uninstall --user 0 com.google.android.photopicker
 adb shell pm uninstall --user 0 com.google.android.accessibility.switchaccess
 adb shell pm uninstall --user 0 com.google.android.dialer
-REM adb shell pm uninstall --user 0 com.google.android.marvin.talkback
+adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 echo.
 REM ### OPLUS ###
 REM KEEP: com.coloros.lockassistant (lock screen assistant) keep or wont boot
@@ -167,7 +179,11 @@ echo Use your settings app to disable AI Service Engine (clear data too!)
 
 adb shell pm uninstall --user 0 com.oplus.android.overlay.aifunction.common
 adb shell pm uninstall --user 0 com.oplus.deepthinker
+
 adb shell pm uninstall --user 0 com.oplus.pay
+echo If this one said "Failure [DELETE_FAILED_INTERNAL_ERROR]"
+echo Use your settings app to disable Secure Payment
+
 adb shell pm uninstall --user 0 com.oplus.engineermode
 adb shell pm uninstall --user 0 com.oplus.engineercamera
 adb shell pm uninstall --user 0 com.oplus.engineernetwork
