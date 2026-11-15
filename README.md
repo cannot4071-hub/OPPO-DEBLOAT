@@ -1,6 +1,8 @@
 # OPPO-DEBLOAT
 ADB script to remove stock OPPO, OnePlus (???) and Google (expected) bloat. Including the pre-installed... sponsored bloat.
 
+For your information, you need to install apps to replace the Camera app, File Manager, etc.
+
 Supports Windows.
 
 Make sure to read the insides of the script for documentation on WHAT will be uninstalled and what will not.
