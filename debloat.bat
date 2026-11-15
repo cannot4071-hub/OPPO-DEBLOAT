@@ -160,7 +160,11 @@ adb shell pm uninstall --user 0 andes.oplus.documentsreader
 adb shell pm uninstall --user 0 com.oplus.healthservice
 adb shell pm uninstall --user 0 com.oplus.trafficmonitor
 adb shell pm uninstall --user 0 com.oplus.obrain
+
 adb shell pm uninstall --user 0 com.oplus.aiunit
+echo If this one said "Failure [DELETE_FAILED_INTERNAL_ERROR]"
+echo Use your settings app to disable AI Service Engine (clear data too!)
+
 adb shell pm uninstall --user 0 com.oplus.android.overlay.aifunction.common
 adb shell pm uninstall --user 0 com.oplus.deepthinker
 adb shell pm uninstall --user 0 com.oplus.pay
