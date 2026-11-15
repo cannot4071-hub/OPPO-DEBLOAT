@@ -102,6 +102,7 @@ REM KEEP: com.google.android.gsf (Services Framework)
 REM adb shell pm uninstall --user 0 com.google.android.cellbroadcastreceiver
 REM keep if you live in an unsafe area
 
+adb shell pm uninstall --user 0 com.google.android.setupwizard
 adb shell pm uninstall --user 0 com.google.android.apps.nbu.files
 adb shell pm uninstall --user 0 com.google.android.printservice.recommendation
 adb shell pm uninstall --user 0 com.google.android.ondevicepersonalization.services
