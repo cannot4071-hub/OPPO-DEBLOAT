@@ -237,7 +237,7 @@ adb shell pm uninstall --user 0 com.netflix.mediaclient
 adb shell pm uninstall --user 0 com.snapchat.android
 adb shell pm uninstall --user 0 com.cardfeed.video_public
 adb shell pm uninstall --user 0 com.microsoftsdk.crossdeviceservicebroker
-REM adb shell pm uninstall --user 0 com.android.settings.intelligence (this will take your setting's search box away
+REM adb shell pm uninstall --user 0 com.android.settings.intelligence (this will take your setting app's search box away
 adb shell pm uninstall --user 0 com.android.egg
 adb shell pm uninstall --user 0 com.android.fmradio
 adb shell pm uninstall --user 0 com.android.cts.ctsshim
